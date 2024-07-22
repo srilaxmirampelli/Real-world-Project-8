@@ -1,0 +1,93 @@
+.wcu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wcu-main-heading {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.hr-line {
+  border: 2px solid #3b0187;
+  width: 10%;
+  border-radius: 50px;
+  margin-top: -10px;
+}
+.wcu-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.wcu-card {
+  background-color: #e9eef5;
+  border-radius: 10px;
+  width: 320px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px #00000050;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+.wcu-card-image {
+  width: 80px;
+}
+.wcu-card-heading {
+  font-size: 22px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #3b0187;
+  font-weight: 500;
+}
+.wcu-card-description {
+  text-align: center;
+  font-family: roboto;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.wcu-levels-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 30px;
+}
+.wcu-level-card {
+  border: 2px solid gray;
+  border-radius: 8px;
+  border-top: 4px solid #3b0187;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+.wcu-level-heading {
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.wcu-level-description {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: roboto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+}
+.wcu-level-icon {
+  margin-right: 10px;
+}

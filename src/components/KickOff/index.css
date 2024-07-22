@@ -1,0 +1,33 @@
+.kickOff-container {
+  background-color: #e9eef5;
+  display: flex;
+  padding: 50px;
+  margin-top: 10px;
+  justify-content: center;
+  gap: 50px;
+}
+.kickOff-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.kickOff-heading {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.kickOff-paragraph {
+  font-size: 20px;
+  font-family: roboto;
+}
+.kickOff-button {
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 250px;
+  height: 70px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+}
