@@ -4,6 +4,10 @@
   align-items: center;
   background-color: #31047a;
   padding: 6px 20px 6px 20px;
+  z-index: initial;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .logo-container {
   list-style-type: none;
